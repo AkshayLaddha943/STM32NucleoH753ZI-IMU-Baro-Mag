@@ -1,0 +1,142 @@
+SWV ITM Data Console - ITM Port: 0
+The device is ready 
+Writing to register 27 
+Configuring gyroscope 
+Configuring accelerometer 
+Exiting from sleep mode 
+x axis acceleration: 0.27 g
+y axis acceleration: 0.36 g
+z axis acceleration: 0.86 g
+Temperature: 27.04 Â°C
+x axis rotation: 4.20 Â°/s
+y axis rotation: 1.07 Â°/s
+z axis rotation: -5.05 Â°/s
+
+x axis acceleration: 0.27 g
+y axis acceleration: 0.40 g
+z axis acceleration: 0.88 g
+Temperature: 26.99 Â°C
+x axis rotation: 4.14 Â°/s
+y axis rotation: -1.31 Â°/s
+z axis rotation: 3.44 Â°/s
+
+x axis acceleration: 0.26 g
+y axis acceleration: 0.38 g
+z axis acceleration: 0.87 g
+Temperature: 26.85 Â°C
+x axis rotation: 1.48 Â°/s
+y axis rotation: -4.60 Â°/s
+z axis rotation: -2.17 Â°/s
+
+x axis acceleration: 0.26 g
+y axis acceleration: 0.39 g
+z axis acceleration: 0.86 g
+Temperature: 26.85 Â°C
+x axis rotation: 3.31 Â°/s
+y axis rotation: -4.70 Â°/s
+z axis rotation: -2.40 Â°/s
+
+x axis acceleration: 0.25 g
+y axis acceleration: 0.44 g
+z axis acceleration: 0.88 g
+Temperature: 26.99 Â°C
+x axis rotation: 3.37 Â°/s
+y axis rotation: -2.93 Â°/s
+z axis rotation: -6.26 Â°/s
+
+x axis acceleration: 0.20 g
+y axis acceleration: 1.03 g
+z axis acceleration: 0.64 g
+Temperature: 26.89 Â°C
+x axis rotation: 16.84 Â°/s
+y axis rotation: -1.62 Â°/s
+z axis rotation: -0.32 Â°/s
+
+x axis acceleration: 0.01 g
+y axis acceleration: 1.29 g
+z axis acceleration: 0.35 g
+Temperature: 26.85 Â°C
+x axis rotation: 10.32 Â°/s
+y axis rotation: -6.40 Â°/s
+z axis rotation: -9.69 Â°/s
+
+x axis acceleration: -0.13 g
+y axis acceleration: 1.33 g
+z axis acceleration: 0.27 g
+Temperature: 26.99 Â°C
+x axis rotation: 1.85 Â°/s
+y axis rotation: -5.42 Â°/s
+z axis rotation: 1.74 Â°/s
+
+x axis acceleration: -0.26 g
+y axis acceleration: 1.31 g
+z axis acceleration: 0.14 g
+Temperature: 26.89 Â°C
+x axis rotation: -5.53 Â°/s
+y axis rotation: 5.60 Â°/s
+z axis rotation: 23.85 Â°/s
+
+x axis acceleration: -0.59 g
+y axis acceleration: 0.99 g
+z axis acceleration: -0.09 g
+Temperature: 27.04 Â°C
+x axis rotation: 11.77 Â°/s
+y axis rotation: 1.34 Â°/s
+z axis rotation: -9.73 Â°/s
+
+x axis acceleration: -0.56 g
+y axis acceleration: 1.06 g
+z axis acceleration: -0.11 g
+Temperature: 27.04 Â°C
+x axis rotation: -24.38 Â°/s
+y axis rotation: -10.76 Â°/s
+z axis rotation: 41.47 Â°/s
+
+x axis acceleration: -0.07 g
+y axis acceleration: 0.83 g
+z axis acceleration: 0.76 g
+Temperature: 27.04 Â°C
+x axis rotation: -1.16 Â°/s
+y axis rotation: -2.95 Â°/s
+z axis rotation: 0.37 Â°/s
+
+x axis acceleration: -0.01 g
+y axis acceleration: 0.08 g
+z axis acceleration: 0.83 g
+Temperature: 26.89 Â°C
+x axis rotation: -18.61 Â°/s
+y axis rotation: -6.79 Â°/s
+z axis rotation: -9.98 Â°/s
+
+x axis acceleration: 0.15 g
+y axis acceleration: -0.37 g
+z axis acceleration: 0.57 g
+Temperature: 27.09 Â°C
+x axis rotation: 7.27 Â°/s
+y axis rotation: 2.61 Â°/s
+z axis rotation: -8.11 Â°/s
+
+x axis acceleration: 0.21 g
+y axis acceleration: -0.47 g
+z axis acceleration: 0.52 g
+Temperature: 27.04 Â°C
+x axis rotation: 0.18 Â°/s
+y axis rotation: 1.39 Â°/s
+z axis rotation: 0.69 Â°/s
+
+x axis acceleration: 0.19 g
+y axis acceleration: -0.41 g
+z axis acceleration: 0.61 g
+Temperature: 27.04 Â°C
+x axis rotation: -4.78 Â°/s
+y axis rotation: 1.34 Â°/s
+z axis rotation: -1.10 Â°/s
+
+x axis acceleration: 0.22 g
+y axis acceleration: -0.38 g
+z axis acceleration: 0.57 g
+Temperature: 26.99 Â°C
+x axis rotation: 2.35 Â°/s
+y axis rotation: -5.74 Â°/s
+z axis rotation: 1.86 Â°/s
+

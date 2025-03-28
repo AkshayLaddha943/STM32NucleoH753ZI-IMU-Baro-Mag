@@ -1,0 +1,2 @@
+../Core/Src/mpu6500.c:9:6:mpu6500_init	32	static
+../Core/Src/mpu6500.c:68:6:mpu6500_read	80	static
