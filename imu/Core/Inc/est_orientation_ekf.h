@@ -24,6 +24,8 @@ void ekf_init(EKF_t *ekf, float dt, float g);
 void ekf_predict(EKF_t *ekf, float gyro[3]);
 void ekf_update(EKF_t *ekf, float accel[3]);
 void quaternion_to_euler(float quater[4], float euler[3]);
-void compute_jacobian();
+void omega_matrix(float omega[3], float result[4][4]);
+void normalize_quaternion(EKF_t *ekf);
+void compute_jacobian(float gyro, EKF_t *ekf);
 
 #endif
