@@ -28,4 +28,8 @@ void omega_matrix(float omega[3], float result[4][4]);
 void normalize_quaternion(EKF_t *ekf);
 void compute_jacobian(float gyro, EKF_t *ekf);
 
+void matrix_multiply(float A[], float B[], float C[], int rows_A, int cols_A, int cols_B);
+void matrix_add(float A[], float B[], float C[], int size);
+void matrix_transpose(float A[], float AT[], int rows, int cols);
+
 #endif

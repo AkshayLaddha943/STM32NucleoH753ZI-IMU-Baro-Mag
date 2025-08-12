@@ -44,23 +44,31 @@ void ekf_init(EKF_t *ekf, float dt, float g)
 
 void ekf_predict(EKF_t *ekf, float gyro[3])
 {
-/* Dynamics model equation */
 
 	/* 1. Subtract estimated bias from raw gyro measurements (control input) */
+	float q = {ekf->x[0], ekf->x[1], ekf->x[2], ekf->x[3]};
 	float bias = {ekf -> x[4], ekf->x[5], ekf->x[6]};
+
 	float omega = {gyro[0], gyro[1], gyro[2]} - bias;
 
-	/* 2. Integrate quaternion using ang velocity */
-	float q = {ekf->x[0], ekf->x[1], ekf->x[2], ekf->x[3]};
-	float result[4][4];
+	float Omega[4][4];
+	omega_matrix(omega, Omega);
 
-	float q_dot = 0.5 * omega_matrix * q;
+	float q_dot[4] = {0};
+
+	float q_dot = 0.5 * Omega * q;
+
+	float q_new[4];
 	float q_new = q + q_dot * ekf->t;
 
 	for (int i=0; i<STATE_DIMEN;i++) {
 		ekf->x[i] = normalized_q[i];
 	};
 
+	float f_jacobian = compute_f_jacobian(gyro, ekf);
+
+	/*3. Covariance update to propagate uncertainty */
+	float covariance = f_jacobian
 }
 
 void ekf_update(EKF_t *ekf, float accel[3])
@@ -73,7 +81,7 @@ void quaternion_to_euler(float quater[4], float euler[3])
 
 }
 
-void omega_matrix(float omega, float result) {
+void omega_matrix(float omega[3], float result[4][4]) {
     result[0][0] = 0.0; result[0][1] = -omega[0]; result[0][2] = -omega[1]; result[0][3] = -omega[2];
     result[1][0] = omega[0]; result[1][1] = 0.0; result[1][2] = omega[2]; result[1][3] = -omega[1];
     result[2][0] = omega[1]; result[2][1] = -omega[2]; result[2][2] = 0.0; result[2][3] = omega[0];
